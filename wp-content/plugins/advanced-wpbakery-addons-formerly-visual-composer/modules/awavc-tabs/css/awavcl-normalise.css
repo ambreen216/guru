@@ -1,0 +1,9 @@
+body{background-color: #f5f7fa;}
+.tabs_title{width: 100%;display: block;text-align: center;margin-bottom: 50px;}
+.tabs_title .title{color: #f96332;font-size: 35px;text-transform: uppercase;}
+.tabs_title .bar{width: 85px;height: 4px;display: block;margin:0 auto;background-color: #f96332;border-radius: 5px;position: relative;}
+.tabs_title .bar:after{content: "";display: block;width: 5px;height: 100%;background-color: #fff;position: absolute;left: 0;top: 0;animation: trans 2s linear infinite;}
+@keyframes trans{
+    from{transform: translateX(0);}
+    to{transform: translateX(85px);}
+}

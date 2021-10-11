@@ -1,0 +1,906 @@
+.text-center{
+    text-align: center;
+}
+.sale_ttl{
+    -webkit-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+}
+
+    
+.sale-banner1 {
+    position: relative;
+    width: 100%;
+    max-width: 510px;
+    margin: auto;
+    padding-bottom: 100%
+}
+
+.sale-banner1 .innerr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.sale-banner1 .innerr .title {
+    font-size: 80px;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 3px;
+    color: #333
+}
+
+.sale-banner1 .innerr .sale-percent {
+    font-size: 34px;
+    font-weight: 300;
+    line-height: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    max-width: 200px;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.sale-banner1 .innerr .sale-percent .number {
+    font-size: 100px
+}
+
+.sale-banner1 .innerr .link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1;
+    padding: 2px 0;
+    text-transform: uppercase;
+    color: #333;
+    border-bottom: 1px solid transparent
+}
+
+.sale-banner1 .innerr .link:hover {
+    border-color: rgba(51, 51, 51, 0.2)
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .sale-banner1 .innerr {
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8)
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px),
+only screen and (max-width:479px) {
+    .sale-banner1 .innerr {
+        -webkit-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        transform: scale(0.7)
+    }
+    .sale-banner1 .innerr .link {
+        font-size: 20px
+    }
+}
+
+.sale-banner2 .innerr .image {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 35px
+}
+
+.sale-banner2 .innerr .image::before {
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: 15px;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    content: "";
+    border: 1px solid #fff
+}
+
+.sale-banner2 .innerr .image img {
+    width: 100%
+}
+
+.sale-banner2 .innerr .image:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.sale-banner2 .innerr .content .sale-percent {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 3px
+}
+
+.sale-banner2 .innerr .content .text {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #333
+}
+
+.sale-banner2 .innerr .content .btn {
+    background-color: #f9f0ee
+}
+
+@media only screen and (max-width:575px) {
+    .sale-banner2 .innerr .image {
+        margin-bottom: 20px
+    }
+}
+
+.sale-banner3 {
+    position: relative;
+    width: 100%;
+    padding: 80px 30px;
+    text-align: center;
+    border: 3px solid rgba(114, 164, 153, 0.4)
+}
+
+.sale-banner3 .special-title {
+    font-size: 56px;
+    line-height: 1.25;
+    display: block;
+    margin-bottom: 25px;
+    color: #72a499
+}
+
+.sale-banner3 .title {
+    font-size: 40px;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 48px
+}
+
+.sale-banner3 .title::before {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 1;
+    position: absolute;
+    z-index: -1;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    content: attr(data-text);
+    -webkit-transform: translateY(-60%);
+    -ms-transform: translateY(-60%);
+    transform: translateY(-60%);
+    text-align: center;
+    color: #f2f2f2
+}
+
+.sale-banner3 .link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2)
+}
+
+.sale-banner3 .link:hover {
+    border-color: #333
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .sale-banner3 .title {
+        font-size: 32px
+    }
+    .sale-banner3 .title::before {
+        font-size: 80px
+    }
+}
+
+.sale-banner3-1 {
+    position: relative;
+    width: 100%;
+    text-align: center
+}
+
+.sale-banner3-1 .image img {
+    width: 100%
+}
+
+.sale-banner3-1 .content {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.sale-banner3-1 .content .special-title {
+    font-size: 56px;
+    line-height: 1.25;
+    display: block;
+    margin-bottom: 25px;
+    color: #72a499
+}
+
+.sale-banner3-1 .content .title {
+    font-size: 34px;
+    font-weight: 400;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 48px
+}
+
+.sale-banner3-1 .content .link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2)
+}
+
+.sale-banner3-1 .content .link:hover {
+    border-color: #333
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px),
+only screen and (min-width:768px) and (max-width:991px) {
+    .sale-banner3-1 .content .title {
+        font-size: 32px
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .sale-banner3-1 .content .special-title {
+        font-size: 44px
+    }
+    .sale-banner3-1 .content .title {
+        font-size: 28px
+    }
+}
+
+.sale-banner4 {
+    height: 100%
+}
+
+.sale-banner4 .innerr {
+    position: relative;
+    height: 100%
+}
+
+.sale-banner4 .innerr>img {
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.sale-banner4 .innerr .content {
+    position: absolute;
+    z-index: 9;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    text-align: center
+}
+
+.sale-banner4 .innerr .content .sub-title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 25px
+}
+
+.sale-banner4 .innerr .content .title {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: .9;
+    margin-bottom: 40px
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px),
+only screen and (max-width:575px) {
+    .sale-banner4 .innerr .content .sub-title {
+        font-size: 20px;
+        margin-bottom: 20px
+    }
+    .sale-banner4 .innerr .content .title {
+        font-size: 60px;
+        margin-bottom: 30px
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .sale-banner4 .innerr .content {
+        top: 12%
+    }
+    .sale-banner4 .innerr .content .sub-title {
+        font-size: 18px;
+        margin-bottom: 15px
+    }
+    .sale-banner4 .innerr .content .title {
+        font-size: 40px;
+        margin-bottom: 20px
+    }
+    .sale-banner4 .innerr .content .button-banner img {
+        height: 16px
+    }
+}
+
+.sale-banner5 .innerr {
+    position: relative;
+    display: block
+}
+
+.sale-banner5 .innerr>img {
+    z-index: 1;
+    display: block;
+    width: 100%
+}
+
+.sale-banner5 .innerr .content {
+    position: absolute;
+    z-index: 9;
+    bottom: 50px;
+    left: 50px
+}
+
+.sale-banner5 .innerr .content .title {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 25px
+}
+
+.sale-banner5 .innerr .content .price {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1;
+    color: #333
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px),
+only screen and (max-width:575px) {
+    .sale-banner5 .innerr .content {
+        bottom: 40px;
+        left: 40px
+    }
+    .sale-banner5 .innerr .content .title {
+        font-size: 32px;
+        margin-bottom: 15px
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .sale-banner5 .innerr .content {
+        left: 20px
+    }
+    .sale-banner5 .innerr .content .title {
+        font-size: 22px;
+        margin-bottom: 5px
+    }
+    .sale-banner5 .innerr .content .price {
+        font-size: 14px
+    }
+}
+
+.sale-banner6 .innerr {
+    position: relative;
+    display: block
+}
+
+.sale-banner6 .innerr>img {
+    z-index: 1;
+    display: block;
+    width: 100%
+}
+
+.sale-banner6 .innerr .content {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center
+}
+
+.sale-banner6 .innerr .content img {
+    display: block;
+    margin: auto
+}
+
+.sale-banner6 .innerr .content img.price {
+    margin-bottom: 25px
+}
+
+.sale-banner6 .innerr .content .title {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: .9;
+    margin-bottom: 20px
+}
+
+.sale-banner6 .innerr .content .link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    display: inline-block;
+    padding-bottom: 5px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #333;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2)
+}
+
+.sale-banner6 .innerr .content .link:hover {
+    border-color: #333
+}
+
+@media only screen and (min-width:1200px) and (max-width:1499px) {
+    .sale-banner6 .innerr .content .title {
+        font-size: 60px
+    }
+    .sale-banner6 .innerr .content img.icon {
+        height: 50px
+    }
+    .sale-banner6 .innerr .content img.price {
+        height: 50px;
+        margin-bottom: 20px
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px),
+only screen and (max-width:767px) {
+    .sale-banner6 .innerr .content .title {
+        font-size: 60px
+    }
+    .sale-banner6 .innerr .content img.icon {
+        height: 40px
+    }
+    .sale-banner6 .innerr .content img.price {
+        height: 30px;
+        margin-bottom: 15px
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .sale-banner6 .innerr .content .title {
+        font-size: 40px;
+        margin-bottom: 10px
+    }
+    .sale-banner6 .innerr .content img.icon {
+        height: 30px
+    }
+    .sale-banner6 .innerr .content img.price {
+        height: 20px;
+        margin-bottom: 10px
+    }
+}
+
+.sale-banner7 {
+    height: 100%
+}
+
+.sale-banner7 .innerr {
+    position: relative;
+    height: 100%
+}
+
+.sale-banner7 .innerr .image {
+    overflow: hidden;
+    width: 100%;
+    height: 100%
+}
+
+.sale-banner7 .innerr .image img {
+    z-index: 1;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.sale-banner7 .innerr .image::before {
+    position: absolute;
+    z-index: 2;
+    top: 15px;
+    left: 15px;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    content: "";
+    -webkit-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+    opacity: 0;
+    border: 1px solid #fff
+}
+
+.sale-banner7 .innerr .content {
+    position: absolute;
+    z-index: 9;
+    top: 15%;
+    left: 0;
+    width: 100%;
+    text-align: center
+}
+
+.sale-banner7 .innerr .content .title {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #696969
+}
+
+.sale-banner7 .innerr .content .sub-title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 0;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #baa491
+}
+
+.sale-banner7:hover .innerr .image img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.sale-banner7:hover .innerr .image::before {
+    opacity: 1
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px),
+only screen and (max-width:575px) {
+    .sale-banner7 .innerr .content .title {
+        font-size: 60px
+    }
+    .sale-banner7 .innerr .content .sub-title {
+        font-size: 24px
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .sale-banner7 .innerr .content .title {
+        font-size: 40px
+    }
+    .sale-banner7 .innerr .content .sub-title {
+        font-size: 20px
+    }
+}
+
+.sale-banner8 {
+    position: relative;
+    display: block;
+    overflow: hidden
+}
+
+.sale-banner8 img {
+    display: block;
+    width: 100%
+}
+
+.sale-banner8 .content {
+    position: absolute;
+    z-index: 9;
+    top: 50%;
+    left: 40px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.sale-banner8 .content .title {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 1.35;
+    margin-bottom: 10px
+}
+
+.sale-banner8 .content .link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    display: inline-block;
+    padding-bottom: 5px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #333;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.2)
+}
+
+.sale-banner8 .content .link:hover {
+    border-color: #333
+}
+
+.sale-banner8:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px) {
+    .sale-banner8 .content .title {
+        font-size: 30px
+    }
+    .sale-banner8 .content .link {
+        font-size: 14px
+    }
+}
+
+@media only screen and (max-width:575px) {
+    .sale-banner8 .content .title {
+        font-size: 24px
+    }
+    .sale-banner8 .content .link {
+        font-size: 14px
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .sale-banner8 .content {
+        left: 20px
+    }
+    .sale-banner8 .content .title {
+        font-size: 18px;
+        margin-bottom: 6px
+    }
+    .sale-banner8 .content .link {
+        font-size: 12px
+    }
+}
+
+.sale-banner9 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100%;
+    padding: 60px 30px
+}
+
+.sale-banner9 .innerr .content {
+    text-align: center
+}
+
+.sale-banner9 .innerr .content .title {
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 1;
+    margin-bottom: 30px;
+    color: #72a499
+}
+
+.sale-banner9 .innerr .content .cuppon {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    display: block;
+    margin-bottom: 34px;
+    letter-spacing: 2px;
+    color: #333
+}
+
+.sale-banner9 .innerr .content .cuppon .code {
+    font-weight: 600;
+    padding: 1px 16px;
+    color: #fff;
+    background-image: url(../images/banner/sale/sale-banner9-1.1.png);
+    background-size: cover
+}
+
+.sale-banner9 .innerr .content .offer {
+    font-size: 90px;
+    font-weight: 600;
+    line-height: 1;
+    display: block;
+    margin-bottom: 35px;
+    color: #333
+}
+
+@media only screen and (max-width:767px) {
+    .sale-banner9 .innerr .content .title {
+        font-size: 80px
+    }
+    .sale-banner9 .innerr .content .cuppon {
+        font-size: 14px;
+        margin-bottom: 25px
+    }
+    .sale-banner9 .innerr .content .offer {
+        font-size: 80px;
+        margin-bottom: 25px
+    }
+}
+
+@media only screen and (max-width:479px) {
+    .sale-banner9 .innerr .content .title {
+        font-size: 60px
+    }
+    .sale-banner9 .innerr .content .cuppon {
+        font-size: 12px
+    }
+    .sale-banner9 .innerr .content .offer {
+        font-size: 60px
+    }
+}
+
+.sale-banner9-image {
+    height: 100%
+}
+
+.sale-banner9-image img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.sale-banner10 .innerr {
+    position: relative;
+    overflow: hidden
+}
+
+.sale-banner10 .innerr>img {
+    width: 100%
+}
+
+.sale-banner10 .innerr .content {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    text-align: center
+}
+
+.sale-banner10 .innerr .content .sub-title {
+    font-size: 56px;
+    line-height: 1;
+    display: block;
+    margin-bottom: 20px;
+    color: #72a499
+}
+
+.sale-banner10 .innerr .content .title {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 4px
+}
+
+.sale-banner10:hover .innerr>img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.sale-banner11 .innerr {
+    position: relative;
+    overflow: hidden
+}
+
+.sale-banner11 .innerr::before {
+    position: absolute;
+    z-index: 2;
+    top: 20px;
+    left: 20px;
+    width: calc(100% - 40px);
+    height: calc(100% - 40px);
+    content: "";
+    border: 1px solid #fff
+}
+
+.sale-banner11 .innerr>img {
+    width: 100%
+}
+
+.sale-banner11 .innerr .content {
+    position: absolute;
+    z-index: 9;
+    bottom: 75px;
+    left: 0;
+    width: 100%;
+    padding: 0 30px;
+    text-align: center
+}
+
+.sale-banner11 .innerr .content .title {
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 20px
+}
+
+.sale-banner11:hover .innerr>img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+.sale-banner .btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 10px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 50px;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.sale-banner .btn-dark{
+    border-color: #333;
+    background-color: #333;
+    color: #fff;
+}
+
+.sale-banner .btn-hover-dark:hover{
+    border-color: red;
+    background-color: red;
+    color: #fff;
+}
+.sale-banner .btn-hover-primary:hover, .btn-hover-primary:not(:disabled):not(.disabled).active {
+    border-color: #f8796c;
+    background-color: #f8796c;
+    color: #fff;
+}
+
+.sale-banner1 img,.sale-banner2 img,.sale-banner3 img,.sale-banner4 img,.sale-banner5 img,.sale-banner6 img,.sale-banner7 img,.sale-banner8 img,.sale-banner9 img,.sale-banner10 img,.sale-banner11 img{
+     -webkit-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;   
+}
+

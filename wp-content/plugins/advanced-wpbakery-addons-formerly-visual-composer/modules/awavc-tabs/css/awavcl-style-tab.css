@@ -1,0 +1,293 @@
+/* ------------- Tabsh Style 1 -------------- */
+#trinity{padding-top: 50px;padding-bottom: 50px;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part{width: 25%;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs{padding:0;width: 110px;border-radius: 5px 0 0 5px;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs .nav-item{width: 100%;height: 110px;text-align: center;display: table;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs .nav-item .nav-link{background-color: #455a64;margin:0;border-radius: 0;display: table-cell;position: relative;padding:0;vertical-align: middle;border:0;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs .nav-item .nav-link:after{content: "";display: block;border-top: 10px solid transparent;border-bottom: 10px solid transparent;border-left: 10px solid#455a64;position: absolute;left: 100%;top: 50%;transform: translateY(-50%);}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs .nav-item .nav-link span{color: #fff;font-size: 25px;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs .nav-item .nav-link p{color: #fff;font-size: 12px;text-transform: uppercase;font-weight: 700;margin:10px 0 0;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs.nav-tabs-neutral>.nav-item>.nav-link.active{background-color: #f96332;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs.nav-tabs-neutral>.nav-item>.nav-link.active:after{border-left-color:#f96332;}
+
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part{width: 75%;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content{padding-top: 10px;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_head .title{font-size: 30px;color: #000;position: relative;font-weight: 400;margin-bottom: 50px;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_head .title:after{content: "";display: block;width: 65px;height: 2px;background-color: #f96332;position: absolute;bottom: -25px;left: 0;}
+
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_description p{font-size: 16px;margin-bottom: 10px;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_description p:last-child{margin-bottom: 0;}
+
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_btn{margin-top: 30px;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_btn a{color: #fff;background-color: #f96332;text-transform: uppercase;border-radius: 50px;font-size: 14px;font-weight: 700;padding: 12px 42px;display: inline-block;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_btn a:hover{text-decoration: none;}
+
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_img figure{width: 80%;height: 280px;margin:0 auto;text-align: center;}
+#adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_img figure img{max-width: 100%;max-height: 100%;}
+/* ------------- / Tabsh Style 1 -------------- */
+
+/* ------------ Tabsh Style 2 ------------- */
+#animateTabs{padding-top: 50px;padding-bottom: 50px;background-color: #fff;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs{margin-bottom: 20px;padding: 0;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li.current i{background-color: #f96332;color: #fff;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li.current p{color: #f96332;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li{width: 20%;text-align: center;list-style: none;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li a:hover i{background-color: #f96332;color: #fff;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li a:hover p{color: #f96332;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li a{display: inline-block;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li a:hover{text-decoration: none;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li p{font-size: 18px;font-weight: 600;color: #000;margin:0;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li i{width: 60px;height: 60px;display: block;margin:0 auto 15px;text-align: center;line-height: 60px;background-color: #ffe9da;color: #FF8A73;font-size: 25px;border-radius: 50px;transition: 0.5s all;}
+
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content h3{font-size: 23px;font-weight: 600;margin:0;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content p{font-size: 16px;color: #818992;line-height: 1.6;margin:15px 0;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content ul{padding:0;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content ul li{list-style: none;color: #818992;font-size: 16px;margin-bottom: 10px;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content ul li:last-child{margin-bottom: 0;}
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content ul li i{font-size: 14px;color: #f96332;margin-right: 3px;}
+
+#animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_img img{max-width: 100%;max-height: 100%;}
+/* ------------ / Tabsh Style 2 ------------- */
+
+/* ------------ Tabsh Style 3 -------------- */
+#slanted{padding-top: 50px;padding-bottom: 50px;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs{border-bottom: 0;padding:0 25px;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-link{border:0;position: relative;padding:20px 10px;color: #fff;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-link span{font-size: 25px;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-link p{margin:0 0 0 10px;font-size: 18px;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-link:after{position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+    content: "";
+    box-shadow: rgba(0, 0, 0, 0.05) 0px -3px 3px inset;
+    transform: perspective(5px) rotateX(0.89deg) translateZ(-1px);
+    transform-origin: 0px 0px;border-radius: 10px 10px 0px 0px;
+    background: #f96332;
+}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-item{margin:0;flex:1;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-item.show .nav-link,.slanted_tabs_part .nav-tabs .nav-link.active{background-color: transparent;border:0;color: #f96332 !important;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-item.show .nav-link,.slanted_tabs_part .nav-tabs .nav-link.active:after{background-color: #fff !important;box-shadow: none !important;}
+
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_content{background-color: #fff;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_content .slanted_right_tabs_content{padding: 50px;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_content .slanted_right_tabs_content .slantedImg figure{}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_content .slanted_right_tabs_content .slantedContent .slanted-header .slanted-title{font-size: 30px;color: #000;position: relative;font-weight: 400;margin-bottom: 50px;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_content .slanted_right_tabs_content .slantedContent .slanted-header .slanted-title:after{content: "";display: block;width: 65px;height: 2px;background-color: #f96332;position: absolute;bottom: -25px;left: 0;}
+#slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_content .slanted_right_tabs_content p{margin:0;font-size: 16px;color: #222222;}
+/* ------------ / Tabsh Style 3 ------------ */
+
+/* ------------ Tabsh Style 4 ------------- */
+#gradient{background-color: #fff;padding-top: 50px;padding-bottom: 50px;}
+#gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_left_part{width: 30%;}
+#gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_left_part .nav-tabs{border:0;}
+#gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_left_part .nav-tabs .nav-item{width: 100%;margin-bottom: 20px;}
+#gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_left_part .nav-tabs .nav-item:last-child{margin-bottom: 0;}
+#gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_left_part .nav-tabs .nav-link{width: 100%;border:0;box-shadow: 0px 0px 30px #edf0f2;border-radius: 3px;color: #8799a3;padding: 15px 30px;}
+#gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_left_part .nav-tabs .nav-link span{font-size: 22px;}
+#gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_left_part .nav-tabs .nav-link p{font-size: 16px;margin:0 0 0 20px;}
+#gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_left_part .nav-tabs .nav-item.show .nav-link, .gradient_tabs_left_part .nav-tabs .nav-link.active{
+	background: rgb(106,101,239);
+	color: #fff !important;border-radius: 3px !important;
+}
+
+#gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_right_part{width: 68%;box-shadow: 0px 0px 30px #edf0f2;border-radius: 3px;padding:35px;}
+#gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_right_part .gradient_tabs_right_content .gradient_right_tabs_heading{margin-bottom: 20px;}
+#gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_right_part .gradient_tabs_right_content .gradient_right_tabs_heading .title{font-size: 25px;margin:0;}
+#gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_right_part .gradient_tabs_right_content .gradient_right_tabs_description .description{font-size: 15px;color: #a9a9a9;margin:0;}
+/* ------------ / Tabsh Style 4 ----------- */
+
+/* ------------- Tabsh Style 5 ------------- */
+#primary{padding-top: 50px;padding-bottom: 50px;}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_part{margin-bottom: 50px;}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_part .nav-tabs{border:0;width: 430px;margin:0 auto;background-color: #fff;border-radius: 25px;overflow:hidden;box-shadow: 0 5px 30px rgba(18,62,138,.1);padding: 5px;}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_part .nav-tabs .nav-item{margin:0;width: calc(100% / 3);text-align: center;}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_part .nav-tabs .nav-link{border:0;border-radius: 25px;transition: 0.3s;padding:7px 10px 5px;}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_part .nav-tabs .nav-link p{margin:0;color: #fff;font-size: 16px;color: #32325d;font-weight: 500;line-height: 1;overflow: hidden;text-overflow: ellipsis;white-space: pre;}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_part .nav-tabs li .nav-item.show .nav-link, .primary_tabs_part .nav-tabs li .nav-link.active{background: linear-gradient(to right, #068ffa, #49bfc4, #89ed91);}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_part .nav-tabs .nav-item.show .nav-link, .primary_tabs_part .nav-tabs .nav-link.active p{color: #fff !important;}
+
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_left_part{width: 50%;padding-right: 15%;}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_left_part .primary_tabs_left_description{margin-bottom: 40px;}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_left_part .primary_tabs_left_description p{font-size: 20px;line-height: 1.8;color: rgba(50,50,93,.75);margin:0;}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .tab-pane .primary_tabs_content_left_btn .btn{background: linear-gradient(to right, #068ffa, #49bfc4, #89ed91);box-shadow: 0 15px 25px 0 rgba(191,102,255,.25);}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_left_part .primary_tabs_content_left_btn a{color: #fff;text-shadow: 0 1px 0 rgba(0,0,0,.1);font-size: 16px;text-transform: uppercase;padding: 20px 30px;line-height: .7;font-weight: 700;}
+
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_right_part{width: 50%;padding-right: 15%;}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_right_part ul{padding:0;}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_right_part ul li{margin-bottom: 20px;}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_right_part ul li:last-child{margin-bottom: 0px;}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_right_part ul li span{width: 25px;height: 25px;text-align: center;line-height: 25px;border-radius: 50px;color: #fff;font-size: 10px;}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .tab-pane .primary_tabs_content_right_part ul li span{background: linear-gradient(to right, #068ffa, #49bfc4, #89ed91);box-shadow: 0 5px 15px 0 rgba(191,102,255,.4);}
+#primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_right_part ul li p{width: calc(100% - 25px);padding-left: 20px;color: rgba(50,50,93,.75);font-size: 16px;line-height: 2;margin:0;}
+/* ------------ / Tabsh Style 5 ------------ */
+
+/* ------------ Responsive CSS ------------ */
+
+@media only screen and (min-width: 1920px){
+
+}
+
+@media only screen and (max-width: 1200px){
+  /* ------ primary ------ */
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_left_part{padding-right: 5%;}
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_right_part{padding-right: 0;}
+  /* ------ primary ------ */
+}
+
+
+@media only screen and (max-width: 992px){
+  /* ------ adv-finity ------ */
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part{width: 100%;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs{width: 100%;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs .nav-item{width: calc(100% / 3);}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs .nav-item .nav-link:after{border-left: 10px solid transparent;border-right: 10px solid transparent;border-top: 10px solid#455a64;left: 50%;top: 99%;transform: translate(-50%);}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs.nav-tabs-neutral>.nav-item>.nav-link.active:after{border-top-color: #f96332;border-left-color: transparent;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part{width: 100%;}
+  /* ------ adv-finity ------ */
+
+  /* ------ slanted ---- */
+  #slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-link p{display: none;}
+  #slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-link span{font-size: 20px;}
+  /* ------ slanted ---- */
+
+  /* ----- gradient ----- */
+  #gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_left_part{width: 100%;}
+  #gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_right_part{width: 100%;margin-top: 15px;}
+  #gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_left_part .nav-tabs .nav-link{padding:15px;}
+  #gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_left_part .nav-tabs .nav-item{width: 24%;text-align: center;margin:0;}
+  #gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_left_part .nav-tabs .nav-link span{font-size: 18px;width: 100%;}
+  #gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_left_part .nav-tabs .nav-link p{margin:5px 0 0;font-size: 14px;width: 100%;overflow: hidden;text-overflow: ellipsis;white-space: pre;}
+  /* ----- gradient ----- */
+
+  /* ------ primary ------ */
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_left_part{width: 100%;padding:0;margin-bottom: 35px;}
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_right_part{width: 100%;}
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_left_part .primary_tabs_left_description{margin-bottom: 20px;}
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_left_part .primary_tabs_content_left_btn a{padding:15px 30px;}
+  /* ------ primary ------ */
+}
+
+@media only screen and (max-width: 768px){
+  /* ------ adv-finity ------ */
+  .win_height{height: auto;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_img{margin-top: 25px;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_img figure{height: 210px;}
+  /* ------ adv-finity ------ */
+
+  /* ----- animate ------ */
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li i{width: 50px;height: 50px;line-height: 50px;font-size: 18px;margin:0 auto 10px;}
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li p{font-size: 15px;}
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_img{margin-top: 25px;text-align: center;}
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_img img{max-width: 65%;}
+  /* ----- animate ------ */
+
+  /* Slanted Css */
+  #slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_content .slanted_right_tabs_content{padding: 25px;}
+  /* Slanted Css */
+
+  /* ------ primary ------ */
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_left_part .primary_tabs_left_description p{font-size: 16px;}
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_left_part .primary_tabs_content_left_btn a{font-size: 14px;}
+  /* ------ primary ------ */
+}
+
+@media only screen and (max-width: 640px){
+  .tabs_title .title{font-size: 25px;}
+  .tabs_title .bar{width: 65px;height: 3px;}
+  /* ----- animate ------ */
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li{width: calc(100% / 3);margin-bottom: 10px;}
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content h3{font-size: 20px;}
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content p{font-size: 14px;}
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content ul li{font-size: 14px;}
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content ul li i{font-size: 12px;}
+  /* ----- animate ------ */
+
+  /* ------ slanted ---- */
+  #slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-link{padding:15px 10px;}
+  #slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_content{margin-top: -2px;}
+  #slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-link:after{transform: perspective(5px) rotateX(1.2deg) translateZ(-1px);}
+  /* ------ slanted ---- */
+
+  /* ----- gradient ----- */
+  #gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_right_part .gradient_tabs_right_content .gradient_right_tabs_heading .title{font-size: 20px;}
+  #gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_right_part .gradient_tabs_right_content .gradient_right_tabs_description .description{font-size: 13px;}
+  #gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_right_part{padding: 25px;}
+  #gradient .gradient_tabs_section .gradient_tabs_content .gradient_tabs_left_part .nav-tabs .nav-item{width: 49%;margin-bottom: 10px;}
+  /* ----- gradient ----- */
+
+}
+
+@media only screen and (max-width: 479px){
+  /* ------ adv-finity ------ */
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_head .title{font-size: 25px;margin-bottom: 40px;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_head .title:after{bottom: -20px;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_description p{font-size: 14px;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_btn a{font-size: 12px;padding: 10px 35px;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs .nav-item .nav-link span{font-size: 20px;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs .nav-item .nav-link p{font-size: 10px;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs .nav-item{height: 90px;}
+  /* ------ adv-finity ------ */
+
+  /* ----- animate ------ */
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content h3{font-size: 18px;}
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content p{font-size: 13px;margin:10px 0;}
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content ul li{font-size: 13px;}
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tab_content .tabs_item .tabs_item_content ul li i{font-size: 10px;}
+  /* ----- animate ------ */
+
+  /* ------ slanted ---- */
+  #slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-link span{font-size: 15px;}
+
+  #slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs{padding:0 15px;}
+  /* ------ slanted ---- */
+}
+@media only screen and (max-width: 375px){
+  .tabs_title .title{font-size: 20px;}
+  .tabs_title .bar{width: 50px;}
+  /* ----- animate ------ */
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li i{width: 45px;height: 45px;line-height: 45px;}
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li p{font-size: 13px;}
+  /* ----- animate ------ */
+
+  /* ------ slanted ---- */
+  #slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs .nav-link span{font-size: 12px;}
+  #slanted .slanted_tabbing_section .slanted_tabbing_content .slanted_tabs_part .nav-tabs{padding:0 5px;}
+
+  /* ------ slanted ---- */
+
+}
+
+@media only screen and (max-width: 479px){
+ /* ------ primary ------ */
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_part .nav-tabs{width: 350px;}
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_left_part .primary_tabs_content_left_btn a{padding:10px 20px;font-size: 12px;}
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_right_part ul li span{width: 20px;height: 20px;line-height: 20px;font-size: 8px;}
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_content_part .primary_tabs_content .primary_tabs_content_right_part ul li p{padding-left: 15px;line-height: 1.5;}
+  /* ------ primary ------ */
+}
+
+@media only screen and (max-width: 375px){
+  /* ------ primary ------ */
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_part .nav-tabs{width: 300px;}
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_part .nav-tabs .nav-link p{font-size: 14px;}
+  /* ------ primary ------ */
+}
+
+@media only screen and (max-width: 320px){
+  /* ------ adv-finity ------ */
+  #animateTabs .animate_tabbing_section .animate_tabbing_content .tabs li p{font-size: 13px;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs .nav-item{height: 70px;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs .nav-item .nav-link p{margin:5px 0 0;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_left_part .nav-tabs .nav-item .nav-link span{font-size: 16px;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .col-md-8{padding-left: 0;padding-right: 0;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_head .title{font-size: 20px;}
+  #adv-finity .adv-finity_tabs_part .adv-finity_tabs_right_part .adv-finity_tab_content .adv-finity_tab_content_img figure{height: 150px;}
+  /* ------ adv-finity ------ */
+
+  /* ------ primary ------ */
+  #primary .primary_tabs_section .primary_tabs_content .primary_tabs_part .nav-tabs{width: 290px;}
+  /* ------ primary ------ */
+}

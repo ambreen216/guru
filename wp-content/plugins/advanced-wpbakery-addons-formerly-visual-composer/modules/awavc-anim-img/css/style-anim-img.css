@@ -1,0 +1,19 @@
+.product-deal-image img {
+    -webkit-animation: dealImage 2s linear infinite alternate both;
+    animation: dealImage 2s linear infinite alternate both
+}
+
+
+
+@-webkit-keyframes dealImage {
+    0% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+    100% {
+        -webkit-transform: translateY(-40px);
+        transform: translateY(-40px)
+    }
+}
+
+

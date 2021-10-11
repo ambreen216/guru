@@ -1,0 +1,125 @@
+.awavcl_countdown {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -5px;
+    margin-left: -5px;
+    text-align: center;
+}
+
+.awavcl_countdown .count {
+   -webkit-box-flex: 1;
+    -webkit-flex: 1 0 22%;
+    -ms-flex: 1 0 22%;
+    flex: 1 0 22%;
+    max-width: 22%;
+    padding: 0 5px;
+}
+
+.awavcl_countdown .count span {
+    display: block
+}
+
+.awavcl_countdown .count span.amount {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.awavcl_countdown .count span.amount::after {
+    font-weight: 300;
+    float: right;
+    margin-top: -4px;
+    content: ":";
+    color: #7e7e7e
+}
+
+.awavcl_countdown .count span.period {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #7e7e7e;
+    margin-bottom: 50px;
+}
+
+.awavcl_countdown .count:last-child .amount::after {
+    display: none
+}
+
+@media only screen and (max-width:479px) {
+    .awavcl_countdown .count span.amount {
+        font-size: 30px;
+        margin-bottom: 15px
+    }
+    .awavcl_countdown .count span.period {
+        font-size: 12px
+    }
+}
+
+.awavcl_countdown.dayempty .count {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 32%;
+    -ms-flex: 1 0 32%;
+    flex: 1 0 32%;
+    max-width: 32%;
+    padding: 0 5px;
+}
+.awavcl_countdown.dayempty.withbg .count {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 28%;
+    -ms-flex: 1 0 28%;
+    flex: 1 0 28%;
+    max-width: 28%;
+    padding: 20px 5px;
+    margin-left:30px;
+}
+.awavcl_countdown.dayempty .count {
+    padding: 75px 5px !important;
+    border-radius: 50%;
+    border: 5px solid #222222;
+    margin-left: 8px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 30%!important;
+    -ms-flex: 1 0 30%!important;
+    flex: 1 0 30%!important;
+    max-width: 30%!important;
+}
+.awavcl_countdown.dayempty .count {
+    border-radius: 50%;
+    border: 5px solid #222222;
+    margin-left: 8px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 30%!important;
+    -ms-flex: 1 0 30%!important;
+    flex: 1 0 30%!important;
+    max-width: 30%!important;
+}
+.awavcl_countdown2 .count {
+    padding: 40px 5px !important;
+    border-radius: 50%;
+    border: 5px solid #222222;
+    margin-left: 8px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 22%;
+    -ms-flex: 1 0 22%;
+    flex: 1 0 22%;
+    max-width: 22%;
+    padding: 0 5px;
+    
+}
+.awavcl_countdown2 .count  span.amount::after,.awavcl_countdown.dayempty.withbg .count  span.amount::after {
+    display: none !important;
+}
+.withbg .count{
+    background-color: #eb4034;
+    
+    border:2px solid #ddd;
+    box-shadow: 2px 4px 3px 1px rgba(0,0,0,.06);
+}
